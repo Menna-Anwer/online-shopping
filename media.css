@@ -1,0 +1,283 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.container {
+		width: 520px;
+		margin: 0 auto;
+	}
+	nav{
+		background-color: black;
+	}
+
+    .container h3{
+        margin: auto;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #sec6  article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    #sec6 article img {
+        width: 48%;
+        margin: 12px 0;
+    }
+ 
+
+    #sec8 article img{
+        width: 100%;
+    }
+    #sec8 article aside {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    #sec8 article aside div{
+        width: 45%;
+    }
+    form{
+        width: 60%;
+        margin: auto;
+    }
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+  
+     footer p{
+         color: white;
+         padding-top: 8px;
+     }
+     footer h5{
+         color: white;
+         display: flex;
+         padding-top: 10px;
+     
+     }
+     footer h5:nth-of-type(1){
+        padding-top: 30px;
+     }
+     footer h5 i{
+         padding-right: 5px;
+     }
+     footer img{
+         padding-top: 10px;
+     }
+       
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.container {
+		width: 720px;
+	}
+	#sec1 nav img {
+        width: 7%;
+    }  
+    #sec2 aside {
+        padding-bottom: 133px;
+        text-align: start;
+        padding-left: 60px;
+    }
+    #sec2  h2{
+        font-size: 30px;
+    } 
+    #sec2  h1 {
+        font-size: 35px;
+    }  
+    #sec2  h5 {
+        padding-top: 110px;
+    }
+    #sec5 article{
+       margin: auto;
+       width: 60%;
+    }
+    .container h3{
+        margin: auto;
+        width: 60%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #sec7 .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #sec7 article{
+        padding: 40px 0px 60px;
+    }
+    #sec9 .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    #sec9 .container aside{
+        padding: 55px 0;
+        width: 40%;
+    }
+    form{
+        width: 40%;
+        margin: auto;
+    } 
+   
+	
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.container {
+		width: 940px;
+	}
+    #sec1 nav h4{
+        width: 43%;;
+        padding: 8px;
+    }
+ 
+    #sec1 nav img {
+        width: 9%;
+    }
+    #sec1 nav label{
+        display: none;
+    }
+    #sec1 nav input[type="checkbox"]+ul,#sec1 nav input[type="checkbox"]:checked+ul{
+        display: flex;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul a {
+        margin-right: 8px;
+        padding: 10px;
+        margin-top:0;
+    }
+    #sec1 nav i {
+        color: white;
+        padding: 14px 10px 4px;
+    }
+    #sec2 h5{
+        padding-top: 175px;
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    #sec3 h4 {
+        padding-top: 55px;
+        font-size: 19px;
+    }
+    #sec5 .container{
+       display: flex;     
+     justify-content: space-evenly;
+     margin-bottom: 60px;
+
+    }
+  
+    #sec5 article {
+        margin: auto;
+        width: 30%;
+    }
+    
+
+    .container h3 {
+        margin: auto;
+        width: 97%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #sec6 article{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content:space-evenly;
+    }
+    #sec6 article img {
+        width:23%;
+        margin: 12px 0;
+    }
+    #sec8 article {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    #sec8 article img{
+        width: 40%;
+        height: auto;
+        padding-bottom: 60px;
+    }
+    #sec8 article aside {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    #sec8 article aside div{
+        width: 45%;
+    }
+    #sec8 article aside div h2{
+        color: white;
+        font-size: 25px;
+    }
+    #sec8 article aside div h5{
+        color: white;
+        font-size: 12px;
+    }
+    #sec9 .container aside{
+        padding: 55px 0;
+        width: 50%;
+    }
+    form{
+        margin: auto;
+        margin-top: 52px;
+        margin-bottom: 50px;
+        width: 35%;
+     
+    } 
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+	.container {
+		width: 1140px;
+	}
+   #sec2 h1 {
+        font-size: 45px;
+    }
+  #sec2 h2 {
+        font-size: 40px;
+    }
+  
+    #sec2 aside {
+        padding-bottom: 155px;
+        text-align: start;
+        padding-left: 9px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    #sec2 h5 {
+        padding-top: 243px;
+        font-size: 15px;
+    }
+    form{
+        margin: auto;
+        margin-top: 52px;
+        margin-bottom: 50px;
+        width: 30%;
+     
+    } 
+	
+}
+@media (min-width: 1400px) { 
+	.container {
+		width: 1340px;
+	}
+    #sec2 h5 {
+        padding-top: 362px;
+    }
+   
+}
